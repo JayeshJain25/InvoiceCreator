@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <Button
+        android:id="@+id/createPDF"
+        android:layout_width="114dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="325dp"
+        android:background="@drawable/gradient"
+        android:drawableTop="@drawable/ic_baseline_create_24"
+        android:tag="1"
+        android:text="Create PDF"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/viewPDF"
+        android:layout_width="114dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="324dp"
+        android:background="@drawable/gradient"
+        android:drawableTop="@drawable/ic_baseline_list_24"
+        android:tag="2"
+        android:text="View PDF"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toEndOf="@+id/createPDF"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
